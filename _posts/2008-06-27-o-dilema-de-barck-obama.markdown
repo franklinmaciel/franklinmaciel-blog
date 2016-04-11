@@ -1,0 +1,78 @@
+---
+author: efeitoecausa
+comments: true
+date: 2008-06-27 17:33:00+00:00
+layout: post
+link: https://efeitoecausa.wordpress.com/2008/06/27/o-dilema-de-barck-obama/
+slug: o-dilema-de-barck-obama
+title: '>O Dilema de Barck Obama'
+wordpress_id: 362
+---
+
+>O Dilema de Obama  
+  
+Seu discurso realça a luta por direitos para todos na era pós-industrial. Sua história de vida encarna a esperança de outra globalização possível. Suas posições estão bem à esquerda da média do Partido Democrata. Mas como ele enfrentará o desafio da disputa eleitoral, num país marcado pelo conservadorismo?  
+  
+John Gerring e Joshua Yesnowitz  
+  
+Além de uma campanha eleitoral clássica, a candidatura de Barack Obama é um movimento, como revelam as multidões eletrizadas que comparecem a seus encontros, as dezenas de voluntários que o apóiam e mais de um milhão de pequenos doadores. Este movimento agregou uma grande quantidade de novos eleitores ao processo de escolha do Partido Democrata, particularmente jovens e independentes [1]. Como resultado deste entusiasmo, o comparecimento às primárias e caucuses do Partido Democrata alcançou um recordes históricos. Aparentemente, Obama injetou nesta disputa um calor que esteve ausente por muitos anos [2].  
+  
+E no entanto, há enormes diferenças de opinião sobre o significado da candidatura de Barack Obama. Para seus eleitores, ele é uma força fundamentalmente nova para a política norte-americana, já que vai além do partidarismo e convida a ultrapassar um jogo eleitoral viciado. Para seus oponentes no Partido Democrata (aqueles que apóiam a candidatura da senadora Hillary Clinton), ele é um espalhafatoso vulgar, combinando juventude e inexperiência. E para os partidários ao republicanismo, é um sujeito fascinante, mas que não tem nada de misterioso: um progressista ultrapassado, desejoso de redistribuir a renda por meio de impostos, pouco diferente daqueles que o precederam.  
+  
+Cada uma destas perspectivas contém elementos de verdade. Porém, o que este homem traz de novo, seu ineditismo, e também sua história de vida, têm fornecido um amplo acervo para os diversos palpites. Tendo um pai do Quênia e uma mãe do Kansas, Obama foi criado no Havaí e na Indonésia, para onde sua mãe se mudou a fim de aprofundar suas pesquisas de doutorado em Antropologia (e onde acabou se casando de novo, o que deu a Obama um padrasto Indonésio). Ele freqüentou a faculdade na Califórnia (Occidental) e em Nova Yorque (Columbia), depois mudou-se para o Sul de Chicago, onde foi organizador de comunidades, até receber seu diploma de Direito em Massachussetts (Harvard). Não é de surpreender que Barack Hussein Obama tenha servido como um pergaminho de diversas camadas, sobre o qual o mundo projetou muitos dos grandes temas contemporâneos.  
+  
+Barack Obama é um mensageiro, mas não um arquiteto do moderno Partido Democrata. Exotismos à parte, a candidatura de Obama está fincada nas questões que agora são tradicionais do Partido Democrata. Do fim do século 19 até a metade do século 20, as causas do partido eram definidas pela oposição à concentração de poder e dinheiro na sociedade norte-americana. Candidatos democratas à presidência – incluindo William Jennings Bryan (em 1896, 1900, 1908), Woodrow Wilson (1912, 1916), Franklin Roosevelt (1932, 1936, 1940 e 1944), e Harrry Truman (1948) – fizeram campanha pelo “povo” e contra os “interesses [privados]”. Eram marcados por uma visão plebiscitária do poder político, em que as pessoas comuns se juntavam para governar diretamente (ou o mais diretamente possível), e conchavos “privados” entre representantes do poder eram considerados corruptos, plutocráticos. Nos discursos, investiam contra o poder concentrado dos capitalistas, referindo-se a eles como trusts e Big Business. Contra os privilégios desfrutados pelas elites, os democratas lutavam pelos direitos do homem comum -– este, assumidamente branco e de origem européia. Assim foi era populista da ideologia do Partido Democrata [3].  
+  
+Mutações no discurso do Partido Democrata. A luta por um “governo da maioria” e a denúncia do Big Business são substituídas pelos “direitos para todos” — inclusive as minorias  
+  
+Na Era pós-II Guerra, a começar pelas campanhas de Adlai Stevenson (1952,1956), e depois com as de John Kennedy (1960), Lyndon Johnson (1964) e Hubert Humpphrey (1968), o discurso ácido da era populista diluiu-se. O antagonismo das classes sociais foi deslocado. Em seu lugar, entram os novos objetivos políticos e auto-imagem do partido. Os democratas do pós-guerra defendiam as reformas sociais da era progressista e do New Deal, e de vez em quando buscavam estender o alcance destas políticas (especialmente, as de seguridade social). No entanto, em seu discurso público, todas as conotações ligadas à luta de classes desapareciam. No lugar delas, os democratas adotaram a ideologia do universalismo, em que todas as raças, credos e classes pudessem estar envolvidas.  
+  
+Essa estratégia retórica tinha como objetivo central o desejo de escapar dos possíveis perigos de um comunismo em ascensão (sobretudo, no auge da Guerra Fria), e da crescente impopularidade do movimento trabalhista. Os democratas do pós-guerra raramente faziam apelos ao governo para regular o setor privado; e nunca atacaram o setor do Big Business. Além disto, a adoção de uma ideologia universalista de união nacional não era somente uma ferramenta retórica, por meio da qual se evitavam acusações de práticas de socialismo e não-americanismo. Ela também articulava um novo objetivo político, fundamental para o Partido Democrata.  
+  
+A partir de 1948, com a adoção do primeiro modelo de direitos civis, os democratas passaram a apoiar o engajamento ativo do governo na garantia de direitos para as mulheres e minorias. No princípio, o significado de minorias ficava restrito aos afro-americanos. Com o passar do tempo, o precedente dos direitos civis aos negros foi se estabelecendo, e o partido passou a defender, da mesma forma os direitos das mulheres, dos hispânicos, dos homossexuais e uma miríade de outros temas, menos etnicistas e mais baseados em causas. Assim, a filosofia dos direitos foi incessantemente estendida. De fato, o partido ao longo do curso do século vinte passou pelo processo de transformação, da ideologia do “governo da maioria” para a ideologia de “direitos das minorias”.  
+  
+No entanto, o passo seguinte nesta caminhada para a unidade entre irmãos e irmãs acabou não acontecendo. O padrão dos candidatos do partido à presidência inclui apenas homens e brancos. Mulheres e minorias foram encorajadas a votar para os democratas, mas nunca contempladas com a indicação ao posto (ainda que alguns tenham tentado, como Geraldine Ferraro e Jesse Jackson). Agora, depois de pregar a fala da inclusão por meio século, o partido está sendo induzido a dançar conforme a música. Este ano, não importa qual dos dois candidatos for escolhido, tanto ele (Barack) quanto ela (Hillary) vão encarnar, em suas histórias de vida, a marca do Partido Democrata contemporâneo. O único postulante sério com pele branca e cromossomo Y – John Edwards – suspendeu sua campanha após ser davastado nas primárias, em que não ganhou sequer em um estado. É de notar que Edwards promovia uma campanha populista, focada em disparidades de classe e desigualdade de renda, uma estratégia falida para ganhar força.  
+  
+Obama afirma-se enquanto o ápice da inclusão democrática. Sua vitoriosa história de vida e sua retórica retumbante captam o clima desta era pós-industrial  
+  
+Dos dois candidatos-líderes, um colocou o tema universalista com maior força que o outro. Enquanto Hillary Clinton apresenta-se como mestre da política, protagonista dos cuidados com a saúde e co-presidente da administração Clinton, Barack Obama afirma-se enquanto o ápice da inclusão democrática. Não somente sua vitoriosa história de vida, como também sua retórica retumbante captam o clima do partido nesta era pós-industrial.  
+  
+Apresentado a uma platéia nacional pela primeira vez em julho de 2004, quando se dirigiu à convenção do Partido Democrata, o então candidato de Illinois ao Senado cativou os delegados com seu apelo não-ideológico à comunidade e sua crença cívica. Estas palavras pertencem ao discurso que fez na ocasião, e que se tornou famoso:  
+  
+Não existe uma América liberal e uma América conservadora: existem os Estados Unidos da América. Não existe uma América branca e uma América negra, uma América latina e uma América asiática: existem os Estados Unidos da América… Nós cultuamos um Deus todo-poderoso nos Estados azuis [democratas], e não gostamos de agentes federais bisbilhotando nossas bibliotecas, nos Estados vermelhos [republicanos]. Nós organizamos campeonatos de basquete nos estados azuis e temos amigos gays nos estados vermelhos. Existem patriotas que se opõem à guerra no Iraque e patriotas que a apóiam. Nós somos um só povo, todos nós prezamos a as estrelas e as listras, todos nós defendemos os Estados Unidos da América.  
+  
+Nos eventos de campanha – que chegaram a ser comparados, por observadores, a rituais religiosos – Obama relembra seus apoiadores, de forma consistente, que todos os norte-americanos, sem distinção de raça, classe, ou gênero podem prosperar. Seu próprio nome, ele diz, é um símbolo da possibilidade norte-americana de mobilidade e destaque social:  
+  
+[Meus pais me deram] um nome africano, Barack, ou “abençoado”, acreditando que, em uma América livre, um nome não deve ser uma barreira para o sucesso. Eles me imaginaram freqüentando as melhores escolas do país, mesmo que não fossem ricos, porque em uma América generosa você não precisa ser rico para realizar seu potencial.  
+  
+Como mostrou no caso do Iraque, ele não evita tomar posições. Mas seus apoiadores as minimizam muitas vezes, em favor da representação de conjunto que ele expressa  
+  
+Obama promove sua candidatura enquanto um político pós-partidário e pós-racial, buscando construir uma totalidade inclusiva, um consenso para a “mudança”. Isto permite a seus eleitores definir o que Obama representa para eles mesmos, livres das reais posicões políticas que o candidato defende. Não é tanto que Obama tenha evitado tomar posições (ele as assumiu de forma clara, por exemplo, sobre a guerra do Iraque: [4] são seus apoiadores que as minimizam muitas vezes, em favor da representação do conjunto que ele expressa.  
+  
+Nada expresa melhor a confluência entre forma e conteúdo, na mensagem de Obama, que seu slogan “Sim, podemos” Yes, we can. Ele incorpora temas universalistas de inclusão e tolerância, num estilo em que o orador faz o apelo e espera a resposta, remanescente da tradição participativa da igreja afro-americana (Ver, em “Yes, we can” um exemplo)  
+  
+Não é de se supreender, no entanto, que as massas do Partido Democrata tenham se unido a este arauto na atual temporada de primárias. Obama reflete o que o partido veio afirmando durante toda a segunda metade do século passado. Ele é a apoteose do universalismo democrático.  
+  
+Ao longo do curso da campanha, Obama foi atacado repetidas vezes – primeiro por Clinton e agora pelo senador John Mccain, provável candidato republicano. Ambos julgaram-no “meramente retórico” e “eloquente, mas vazio” querendo dizer sem substância, sem estofo. Alega-se que seu conhecimento de política é fraco e que ele não tem uma agenda clara.  
+  
+A modernidade de Obama não tem nada a ver com a de Bill Clinton. Se escolhido por seu partido, Obama será o mais à esquerda entre os democratas desde George Mc Govern, em 1972  
+  
+Embora esta linha de ataque expresse uma preocupação legítima, é também necessário apontar que a política é uma arte feita de palavras, o elemento mais forte e sonoro que evoca poesia no léxico político de hoje (“poeta” é outro epíteto, supostamente desqualificador, atirado contra Obama). As palavras e a capacidade de usá-las são habillidades da profissão, visto que a política é essencialmente uma arte retórica. As pessoas ouviam Ronald Reagan e gostavam do que ele dizia. O mesmo não poderia ser dito de H.W. Bush, nem de G.W. Bush.  
+  
+Da mesma forma, o sinal que distingue Bill Clinton de de quase todos os outros recentes aspirantes a presidente democratas (incluindo sua esposa) é sua maestria na arte de comunicação. Sem isto, Obama (ou Hillary) não podem conseguir grande coisa. O senso comum (repetido incansavelmente na campanha de Hillary Clinton) de que se faz campanha em poesia e se governa em prosa omite que, nesta era de permanente campanha, é preciso dominar ambos os meios, todo o tempo. Não é por acidente que os líderes norte-americanos julgados como grandes são aqueles de cujas palavras podemos nos lembrar.  
+  
+Assim como Obama hoje, Lincoln foi também acusado, por seus oponentes, de disfarçar sua verdadeira agenda por trás de uma névoa de palavras bem-ditas, mas substancialmente ambíguas. Durante sua campanha para presidente, em 1860, ele foi pressionado várias vezes a tomar partido claro em relação à abolição da escrevatura. Mas a bandeira sob a qual preferiu conduzir sua campanha foi a do nacionalismo. Lincoln autodenominava-se um salvador da União e não o protetor dos homens e mulheres negros. Ele declarou sua repugnância pela escravidão, mas sempre deixou claro que esta era uma opinião pessoal e não partidária, e teria poucos desdobramentos políticos, caso fosse eleito. Neste sentido, a performance de Lincoln poderia ser vista como um dos maiores estelionatos eleitorais na história da política… E, ainda assim, é um dos mandatos que os norte-americanos, brancos e negros, provavelmente defenderiam hoje. Sua estratégia era a única que poderia assegurar sua nomenação como candidato republicano, e — com um pouco de sorte… — a presidência.  
+  
+Se Obama for escolhido entre os democratas para defender suas cores em novembro, o ponto mais sensível de seu discurso político não será a raça, mas o caráter supostamente progressista de sua candidatura. Seu histórico de votações (como parlamentar no Estado de Illinois e senador em Washington), assim como suas alianças políticas, indicam que ele está na ala esquerda do Partido Democrata, e bem mais à esquerda que a maioria dos candidatos recentes. Neste sentido, a modernidade de Obama não tem nada a ver com a de Bill Clinton, quando eleito em 1992. Se for o escolhido de seu partido, Obama poderá ser classificado pelos historiadores como o mais à esquerda entre os democratas desde George Mc Govern, em 1972. Optará por fazer campanha como um progressista de carteirinha? Ou preferirá aparecer como alguém acima das disputas políticas?  
+  
+[1] Cidadãos que optaram por não se afiliar a nenhum dos dois grandes partidos, no momento de sua inscrição eleitoral. A questão sobre seu vínculo partidário lhes é apresentada para determinar de que primárias eles poderão participar. Porque, em muitos Estados, um eleitor inscrito como democrata, ou como republicano, não pode participar da primária de outro partido  
+  
+[2] Para dados sobre grupos demográficos e participação eleitoral, ver The United States Election Project http://elections.gmu.edu  
+  
+[3] Este esboço histórico inspira-se em John Gerring, Party Ideologies in America, 1828-1996. Cambridge: Cambridge University Press, 1998.  
+  
+[4] Em 2/10/2002, no momento em que uma maioria dos norte-americanos parecia apoiar a política do presidente George W. Bush, Obama participou de uma manifestação anti-guerra e pronunciou um discurso importante.  
+  
+John Gerring, Professor de ciência política na Universidade de Boston e autor de Party Ideologies in America: 1828-1996. Cambridge University Press, Nova York, 2001.  
+  
+Joshua Yesnowitz, Doutorando na Universidade de Boston.
