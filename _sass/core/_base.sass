@@ -1,0 +1,30 @@
+*, *:before, *:after 
+   @include box-sizing(inherit)
+
+html, body
+   background: $color-gray-light
+   height: 100%
+   @include box-sizing(border-box)      
+   font-family: $font-family-regular
+   font-weight: 400
+   
+body    
+   background-color: $color-gray-light
+   color: #333
+   line-height: 1.5
+
+img 
+   max-width: 100%
+
+// ## Links   
+a, a:hover
+   text-decoration: none
+   color: inherit
+a:hover
+   color: inherit
+a:visited
+   color: inherit
+
+// ## Strong
+strong   
+   font-weight: 600   

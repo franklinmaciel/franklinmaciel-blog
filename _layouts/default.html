@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  {% include head.html %}
+  
+  <body class="{{page.class}}">
+    {% include plugins/fb-page-import.html %}        
+    <div class="raio-color-stripes"></div>
+
+    {% include header.html %}
+    
+    <main class="raio-body">
+        {{ content }} 
+        <aside class="raio-widgets-container">
+          <section class="raio-widgets raio-widgets-special">
+            {% include widgets/author-information.html %}        
+          </section>
+        </aside>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+</html>
