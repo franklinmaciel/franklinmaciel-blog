@@ -1,0 +1,18 @@
+frank-area
+	margin-left: 0
+
+	+modifier('sidebar')
+		width: 100%
+		@media (min-width: $screen-tablet-min)
+			width: calc(768px / 12 * 3)
+
+		@media (min-width: $screen-desktop-min)
+			width: calc(1024px / 12 * 3)
+
+	+modifier('content')			
+		width: 100%
+		@media (min-width: $screen-tablet-min)
+			margin-left: calc(768px / 12 * 3)
+
+		@media (min-width: $screen-desktop-min)
+			margin-left: calc(1024px / 12 * 3)	

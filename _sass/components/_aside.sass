@@ -1,11 +1,45 @@
 .frank-aside	
 	display: block
 	
-	+modifier('fixed')
-		// position: fixed
+	@media (min-width: $screen-tablet-min)
+		position: fixed
 	
 	+element('image')
+		display: block
+		margin: 0 auto
+
+	+element('title')	
+		line-height: 2
+		margin-top: spacing(1)
+		color: $color-blue
+		font-family: $font-family-bold
+		font-size: 28px
+		&:hover,
+		&:visited,
+		&:active
+			color: inherit
 
 	+element('social')
+		display: block
+		margin-top: spacing(1)
+		@include m-clearfix
+		line-height: 30px
+		padding: 0
+
 		+element('item')
+			display: inline-block
+			padding: 0
+			float: right
+
+			+modifier('only-text')
+				float: left
+
 			+element('link')
+				&:hover
+					color: $color-orange
+			
+			+element('icon')
+				font-size: 20px
+				padding: 0
+				margin-right: spacing(1)
+				color: $color-blue
