@@ -3,30 +3,16 @@
 //
 .raio-posts-container  
    @include m-clearfix
-   @media (min-width: $screen-tablet-min)
-      width: calc((100%/3) * 2)   
-      float: left
-   @media (min-width: $screen-desktop-min)      
-      width: calc((100%/4) * 3)   
-      float: left      
    + .raio-widgets-container      
       margin-top: spacing(2)
       @media (min-width: $screen-tablet-min)
          margin-top: 0
-         width: calc((100%/3) - #{spacing(2)})   
-         float: left         
-         margin-left: spacing(2)
-      @media (min-width: $screen-desktop-min)       
-         width: calc((100%/4) - #{spacing(2)})   
               
-
 // ## Post
 //
 .raio-post   
    background-color: white
    padding: spacing(2)
-   @media (min-width: $screen-desktop-min)
-      padding: spacing(3)
    + .raio-post,
    + .raio-pagination
       margin-top: spacing(2)

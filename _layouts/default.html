@@ -6,16 +6,14 @@
   <body class="{{page.class}}">
     {% include plugins/fb-page-import.html %}        
     <div class="raio-color-stripes"></div>
-
-    {% include header.html %}
     
     <main class="raio-body">
-        {{ content }} 
-        <aside class="raio-widgets-container">
-          <section class="raio-widgets raio-widgets-special">
-            {% include widgets/author-information.html %}        
-          </section>
-        </aside>
+        <div class="row">
+          {% include aside-fixed.html %}          
+          <div class="col-tablet-9 p-padding-2">
+            {{ content }}           
+          </div>          
+        </div>
     </main>
 
     {% include footer.html %}
