@@ -1,0 +1,12 @@
+<html>
+<head>
+<title> Redirecionando para administração </title>
+
+<script type='text/javascript'>
+
+  window.location = 'http://prose.io/#franklinmaciel/franklinmaciel.github.io/new/master/_posts';
+
+</script>
+</head>
+<body></body>
+</html>
