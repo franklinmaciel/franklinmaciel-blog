@@ -1,6 +1,7 @@
 ---
 published: true
 title: Post teste com instagram
+layout: post
 ---
 ## Teste com instagram
 
