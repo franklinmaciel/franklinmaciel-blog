@@ -1,5 +1,14 @@
 ---
-published: false
+author: franklinmaciel # mantenha essa linha sem alterar
+comments: true
+layout: post #mantenha essa linha sem alterar
+title: Lava-jato ou conta-gotas? Como sua vida é prejudicada pela novela sem fim do combate à corrupção
+published: true # sem essa linha o texto não aparece no blog
+categories: # categorias abaixo, uma por linha começadas com -
+- lava jato
+- corrupcao
+- voto distrital
+- corrupcao
 ---
 ## Lava-jato ou conta-gotas? Como sua vida é prejudicada pela novela sem fim do combate à corrupção
 
