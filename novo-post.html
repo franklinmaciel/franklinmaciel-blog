@@ -2,9 +2,30 @@
 <head>
 	<title> Franklin Maciel.com.br - Administração </title>
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.0.28/css/bulma.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+	<script type='application/javascript'>
+		angular.module('blog', []);
+		angular.module('blog').controller('novoPostController', novoPostController);
+		
+		function novoPostController(){
+			var vc = this;
+			vc.showingModalName = null;
+			vc.setShowingModalName = setShowingModalName;
+			vc.closeModalIfOpen = closeModalIfOpen;
+			function setShowingModalName(modalName){
+				vc.showingModalName = modalName;
+			}
+
+			function closeModalIfOpen(){
+				vc.showingModalName = null;
+			}
+		}
+
+	</script>
 	<link rel='noindex, nofollow'>
 </head>
-<body>
+
+<body ng-app='blog' ng-controller='novoPostController as vc'>
 	<div class="hero is-primary">
 		<div class="hero-head">
 			<div class="container">
@@ -17,10 +38,10 @@
 
 	  <div class="nav-right nav-menu">
 	    <span class="nav-item">
-	      <a class="button is-light is-outlined">
+	      <a class="button is-light is-outlined" ng-click='vc.setShowingModalName("metadata")'>
 	        <span>Meta Data</span>
 	      </a>
-	      <a class="button is-light is-outlined">
+	      <a class="button is-light is-outlined" ng-click='vc.setShowingModalName("exemplo")'>
 	        <span>Post exemplo</span>
 	      </a>	      
 	      <a class="button is-primary is-inverted" href="">
@@ -35,12 +56,12 @@
 	<iframe src="http://prose.io/#franklinmaciel/franklinmaciel.github.io/new/master/_posts" style="position: absolute; width: 100%; top: 52px; bottom: 0; left: 0; right: 0; height: 100%;"></iframe>
 
 
-	<div class="modal is-active">
+	<div class="modal" ng-class='{"is-active": vc.showingModalName === "metadata"}'>
 	  <div class="modal-background"></div>
 	  <div class="modal-card">
 	    <header class="modal-card-head">
 	      <p class="modal-card-title">Meta Data - Exemplo </p>
-	      <button class="delete"></button>
+	      <button class="delete" ng-click='vc.closeModalIfOpen()'></button>
 	    </header>
 	    <section class="modal-card-body" style="min-height: 250px;">
 	    	<div class="content">
@@ -53,6 +74,7 @@ comments: true
 layout: post #mantenha essa linha sem alterar
 title: Título do post 
 categories: # categorias abaixo, uma por linha começadas com -
+published: True # sem essa linha o texto não aparece no blog
 - cidadania
 - conspiração
 - categoria 3
@@ -66,6 +88,39 @@ categories: # categorias abaixo, uma por linha começadas com -
 	    </footer>
 	  </div>
 	</div>
+
+
+	<div class="modal" ng-class='{"is-active": vc.showingModalName === "exemplo"}'>
+	  <div class="modal-background"></div>
+	  <div class="modal-card">
+	    <header class="modal-card-head">
+	      <p class="modal-card-title">Post - Exemplo </p>
+	      <button class="delete" ng-click='vc.closeModalIfOpen()'></button>
+	    </header>
+	    <section class="modal-card-body" style="min-height: 250px;">
+	    	<div class="content">
+	      <p>Copie o trecho abaixo e edite conforme necessário:</p>
+			<figure><pre><code>
+# Esse é o título do meu post começado com 
+
+Aqui eu escrevo texto normalmente, sem firulas. Posso deixar algo em **negrito** colocando duas ** em volta**.
+
+![drogas_to_fora.jpg]({{site.baseurl}}/_posts/drogas_to_fora.jpg)
+
+## Aqui eu coloco um subtítulo começado com ##
+
+E lá vai mais texto.	
+
+			</code></pre></figure>
+
+	      </div>
+	    </section>
+	    <footer class="modal-card-foot">
+	      <a class="button is-primary">Copiar trecho</a>
+	    </footer>
+	  </div>
+	</div>
+
 
 
 
