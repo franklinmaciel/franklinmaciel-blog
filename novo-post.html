@@ -3,8 +3,10 @@
 	<title> Franklin Maciel.com.br - Administração </title>
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.0.28/css/bulma.css">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+	<script src="//cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+	<script src="//cdn.rawgit.com/sachinchoolur/ngclipboard/master/dist/ngclipboard.min.js"></script>
 	<script type='application/javascript'>
-		angular.module('blog', []);
+		angular.module('blog', ['ngclipboard']);
 		angular.module('blog').controller('novoPostController', novoPostController);
 		
 		function novoPostController(){
@@ -44,8 +46,8 @@
 	      <a class="button is-light is-outlined" ng-click='vc.setShowingModalName("exemplo")'>
 	        <span>Post exemplo</span>
 	      </a>	      
-	      <a class="button is-primary is-inverted" href="">
-	        <span>Subir imagem</span>
+	      <a class="button is-primary is-inverted" ng-click='vc.setShowingModalName("imagem")'>
+	        <span>Como subir imagem?</span>
 	      </a>      
 	    </span>
 	  </div>
@@ -67,7 +69,7 @@
 	    	<div class="content">
 	      <p><strong>Meta Data</strong> são informações extra-texto usadas para formar o conteúdo do post como seu título e sua imagem principal. Essas informações são importantes e o post não pode existir sem elas.</p>
 	      <p>Copie o trecho abaixo e edite conforme necessário:</p>
-			<figure><pre><code>
+			<figure><pre><code id='clipboard-metadata'>
 ---
 author: franklinmaciel # mantenha essa linha sem alterar
 comments: true
@@ -84,7 +86,7 @@ published: True # sem essa linha o texto não aparece no blog
 	      </div>
 	    </section>
 	    <footer class="modal-card-foot">
-	      <a class="button is-primary">Copiar trecho</a>
+	      <a class="button is-primary" ngclipboard data-clipboard-target='#clipboard-metadata'>Copiar trecho</a>
 	    </footer>
 	  </div>
 	</div>
@@ -100,7 +102,7 @@ published: True # sem essa linha o texto não aparece no blog
 	    <section class="modal-card-body" style="min-height: 250px;">
 	    	<div class="content">
 	      <p>Copie o trecho abaixo e edite conforme necessário:</p>
-			<figure><pre><code>
+			<figure><pre><code id='clipboard-exemplo'>
 # Esse é o título do meu post começado com 
 
 Aqui eu escrevo texto normalmente, sem firulas. Posso deixar algo em **negrito** colocando duas ** em volta**.
@@ -116,11 +118,30 @@ E lá vai mais texto.
 	      </div>
 	    </section>
 	    <footer class="modal-card-foot">
-	      <a class="button is-primary">Copiar trecho</a>
+	      <a class="button is-primary" 
+	      <a class="button is-primary" ngclipboard data-clipboard-target='#clipboard-exemplo'>Copiar trecho</a>
 	    </footer>
 	  </div>
 	</div>
 
+
+	<div class="modal" ng-class='{"is-active": vc.showingModalName === "imagem"}'>
+	  <div class="modal-background"></div>
+	  <div class="modal-card">
+	    <header class="modal-card-head">
+	      <p class="modal-card-title">Como subir imagem?</p>
+	      <button class="delete" ng-click='vc.closeModalIfOpen()'></button>
+	    </header>
+	    <section class="modal-card-body" style="min-height: 250px;">
+	    	<div class="content">
+	    	<img src='https://s31.postimg.org/wph4d7hzf/imagem_como_subir.png'>
+	      </div>
+	    </section>
+	    <footer class="modal-card-foot">
+	      <a class="button is-primary" ng-click='vc.closeModalIfOpen()'>Entendí!</a>
+	    </footer>
+	  </div>
+	</div>
 
 
 
