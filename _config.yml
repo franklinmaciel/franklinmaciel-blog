@@ -16,7 +16,9 @@ google_analytics_id: UA-
 disqus_shortname: franklinmaciel
 
 # Build settings
-gems: [jekyll-paginate]
+gems: 
+  - jekyll-paginate
+  - jekyll-auto-image  
 markdown: kramdown
 paginate: 10
 permalink: /:title
