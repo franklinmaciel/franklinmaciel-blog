@@ -1,22 +1,24 @@
-<div>
+<div class="raio-posts-container">
 	<p ng-if='vc.vm.isLoadingFullPost'>carregando...</p>
 	
-	<div ng-if='vc.vm.isLoadingFullPost === false'>
-		<h1 ng-bind-html='vc.vm.title | trustAsHtml' ng-href='{[{post.slug}]}'></h1>
+	<div ng-if='vc.vm.isLoadingFullPost === false' class="raio-post">
+		<h1 ng-bind-html='vc.vm.title | trustAsHtml' ng-href='{[{post.slug}]}' class="raio-post-title"></h1>
 		
-		<p ng-bind='vc.vm.date | date :  "dd/MM/y"'></p>
+		<div class="raio-post-info">
+			<p ng-bind='vc.vm.date | date :  "dd/MM/y"' class="raio-post-date"></p>
+		</div>
 
-		<img ng-src='{[{vc.vm.featuredImage}]}' style='max-width: 800px;'>
+		<img ng-src='{[{vc.vm.featuredImage}]}'>
 
-		<div ng-bind-html='vc.vm.content | trustAsHtml '></div>
+		<div ng-bind-html='vc.vm.content | trustAsHtml ' class="raio-post-content"></div>
 
-		<div>
-			<span><strong>tags:</strong></span>
+		<div ng-if='vc.vm.tagNames.length > 0'>
+			<span><strong>tags: </strong></span>
 			<span ng-repeat='tagName in vc.vm.tagNames' rel='tag'>{[{tagName}]} </span>
 		</div>
 
-		<div>
-			<span><strong>categories:</strong></span>
+		<div ng-if='vc.vm.categoryNames.length > 0'>
+			<span><strong>categorias: </strong></span>
 			<span ng-repeat='categoryName in vc.vm.categoryNames' rel='category tag'>{[{categoryName}]} </span>
 		</div>		
 		
