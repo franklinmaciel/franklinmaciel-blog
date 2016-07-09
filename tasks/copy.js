@@ -43,5 +43,10 @@ module.exports = function() {
   ])
   .pipe(gulp.dest('./build/js'));
 
-  return merge(angularCopy, imagesCopy, othersCopy, jsCopy);
+  var cssCopy = gulp.src([
+    './src/css/**/*.css'
+  ])
+  .pipe(gulp.dest('./build/css'));  
+
+  return merge(angularCopy, imagesCopy, othersCopy, jsCopy, cssCopy);
 };
