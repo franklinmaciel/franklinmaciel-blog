@@ -48,5 +48,10 @@ module.exports = function() {
   ])
   .pipe(gulp.dest('./build/css'));  
 
-  return merge(angularCopy, imagesCopy, othersCopy, jsCopy, cssCopy);
+  var fontsCopy = gulp.src([
+    './src/fonts/**/*'
+  ])
+  .pipe(gulp.dest('./build/fonts'));    
+
+  return merge(angularCopy, imagesCopy, othersCopy, jsCopy, cssCopy, fontsCopy);
 };
