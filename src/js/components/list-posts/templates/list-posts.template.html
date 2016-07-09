@@ -1,0 +1,13 @@
+<div class="raio-posts-container"> 
+	<p ng-if='vc.vm.isLoadingPosts'>Carregando posts</p>
+	<div ng-repeat='post in vc.vm.postsList' class="raio-post">
+		<h2 class="raio-post-title"><a ng-bind-html='post.title | trustAsHtml' ng-href='{[{post.slug}]}'></a></h2>
+		<div class="raio-post-info">
+			<p ng-bind='post.date | date :  "dd/MM/y"' class="raio-post-date"></p>
+		</div>
+		<a class="raio-post-excerpt-link" ng-href='{[{post.slug}]}'>
+			<img ng-src='{[{post.featured_image}]}'>
+			<p ng-bind-html='post.excerpt | trustAsHtml'></p>			
+		</a>
+	</div>
+</div>

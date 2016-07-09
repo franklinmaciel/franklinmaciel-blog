@@ -1,15 +1,12 @@
 {
-  "name": "jotateles.com.br",
-  "version": "0.0.0",
+  "name": "frontpress",
+  "description": "Full front-end AngularJS template for WordPress API.",
+  "main": "index.js",
   "authors": [
-    "teles <josetelesmaciel@gmail.com>"
+    "Jota Teles <josetelesmaciel@gmail.com>"
   ],
-  "description": "Raio frontendizador",
-  "keywords": [
-    "sass",
-    "chocolate"
-  ],
-  "license": "MIT",
+  "license": "ISC",
+  "homepage": "https://github.com/teles/frontpress",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -17,7 +14,14 @@
     "test",
     "tests"
   ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "ngInfiniteScroll": "^1.2.2",
+    "defiant": "defiantjs#^1.3.9",
+    "angular-disqus": "^1.1.0",
+    "compass-mixins": "^1.0.2"
+  },
   "devDependencies": {
-    "compass-mixins": "~1.0.2"
+    "angular-ui-router": "^0.3.1"
   }
 }

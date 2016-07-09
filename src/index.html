@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="frontpress" ng-controller='FrontPressController as vc'>
+	<head page-head>
+	    <meta name="fragment" content="!">
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <link rel='stylesheet' href="/css/raio.css">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- inject:css -->
+        <!-- endinject -->		
+	</head>
+	<body class="raio-body">
+		<base href="/">
+		<div class="frank-aside frank-area--sidebar">
+		  <a href="/" class="frank-aside__title">Franklin Maciel</a>
+		  
+		  <a href="/sobre" title="Sobre Franklin Maciel">
+		    <img src="https://s31.postimg.org/6tejrkiij/franklinsite.jpg" alt="Blog do Franklin Maciel" class="frank-aside__image">
+		  </a>
+		  <ul class="frank-aside__social">
+		    <li class="frank-aside__social__item--only-text">
+		      <a href="/sobre" class="frank-aside__social__item__link">
+		        <span>Sobre Franklin</span>
+		      </a>
+		    </li>  
+		    <li class="frank-aside__social__item">
+		      <a href="https://www.facebook.com/franklinfmaciel" class="frank-aside__social__item__link" target="_blank">
+		        <i class="raicon-facebook frank-aside__social__item__icon"></i>
+		      </a>
+		    </li>
+		    <li class="frank-aside__social__item">
+		      <a href="https://twitter.com/frank_maciel" class="frank-aside__social__item__link" target="_blank">
+		        <i class="raicon-twitter frank-aside__social__item__icon"></i>
+		      </a>
+		    </li>
+		  </ul>  
+		</div>
+		<ui-view class="frank-area--content"></ui-view>
+	</body>
+    <!-- inject:js -->
+    <!-- endinject -->
+</html>
