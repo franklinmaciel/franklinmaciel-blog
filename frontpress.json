@@ -1,0 +1,8 @@
+{
+  "restApiUrl": "https://public-api.wordpress.com/rest/v1.1/sites/efeitoecausa.wordpress.com",
+  "pageSize": "6",
+  "disqusShortname": "franklinmaciel",
+  "overrides": {
+    "title": "Franklin Maciel"
+  }
+}

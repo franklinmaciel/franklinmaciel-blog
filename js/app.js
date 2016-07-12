@@ -2,7 +2,7 @@
 
 	"use strict";
 
-	angular.module('frontpress', ['frontpress.views.home', 'frontpress.views.post', 'frontpress.apis.blog', 'frontpress.components.frontpress-provider']);
+	angular.module('frontpress', ['frontpress.views.home','frontpress.views.sobre', 'frontpress.views.post', 'frontpress.apis.blog', 'frontpress.components.frontpress-provider']);
 
 })();
 (function(){
@@ -13,8 +13,8 @@
     function frontpressConfig($interpolateProvider, $httpProvider, $urlRouterProvider, $locationProvider, BlogApiProvider, PostsApiProvider, $FrontpressProvider){
         $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
         $httpProvider.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8';
+        delete $httpProvider.defaults.headers.common['X-Requested-With'];             
         $locationProvider.html5Mode(true);
-        delete $httpProvider.defaults.headers.common['X-Requested-With'];                
         $FrontpressProvider.configure.load();
     }
 
@@ -87,13 +87,6 @@
 
 	"use strict";
 
-	angular.module('frontpress.components.blog-information', ['frontpress.components.frontpress-provider']);
-
-})();
-(function(){
-
-	"use strict";
-
 	angular.module('frontpress.components.frontpress-provider', ['ngDisqus']);
 
 })();
@@ -102,6 +95,13 @@
 	"use strict";
 
 	angular.module('frontpress.components.full-post', ['frontpress.filters']);
+
+})();
+(function(){
+
+	"use strict";
+
+	angular.module('frontpress.components.blog-information', ['frontpress.components.frontpress-provider']);
 
 })();
 (function(){
@@ -136,6 +136,13 @@
 	"use strict";
 
 	angular.module('frontpress.views.post', ['frontpress.components.full-post', 'ui.router', 'frontpress.components.page-head', 'ngDisqus']);
+})();
+(function(){
+	
+	"use strict";
+
+	angular.module('frontpress.views.sobre', []);
+
 })();
 (function(){
 
@@ -259,6 +266,26 @@
 
 (function(){
 
+	"use strict";
+
+	angular.module('frontpress.views.sobre').directive('sobreView', sobreView);
+
+	function sobreView(){
+		var directive = {
+			scope: {},
+			templateUrl: '/js/views/sobre/templates/sobre.template.html',
+			restrict: 'E',
+			controllerAs: 'vc',
+			bindToController: true,
+			controller: 'SobreDirectiveController'
+		};
+		return directive;
+	}
+
+})();
+
+(function(){
+
 // file generated using ngConfig
 
 "use strict";
@@ -266,7 +293,7 @@
 angular.module("frontpress.components.frontpress-provider")
 .constant("FrontpressConfigurationFile", {
     "restApiUrl": "https://public-api.wordpress.com/rest/v1.1/sites/efeitoecausa.wordpress.com",
-    "pageSize": "5",
+    "pageSize": "6",
     "disqusShortname": "franklinmaciel",
     "overrides": {
         "title": "Franklin Maciel"
@@ -335,6 +362,27 @@ angular.module("frontpress.components.frontpress-provider")
         };
 
         $stateProvider.state('post', statePost);
+    }
+
+})();
+
+(function(){
+	'use strict';
+
+	angular.module('frontpress.views.post').config(configSobre);
+
+    configSobre.$inject = ["$stateProvider"];
+
+    function configSobre($stateProvider){
+
+        var stateSobre = {
+            url: '/pagina/sobre',
+            template: '<sobre-view></sobre-view>',
+            controller: 'SobreRouteController',
+            controllerAs: 'vc'
+        };
+
+        $stateProvider.state('sobre', stateSobre);
     }
 
 })();
@@ -446,46 +494,6 @@ angular.module("frontpress.components.frontpress-provider")
     return model;
 
   }
-})();
-(function(){
-
-	"use strict";
-
-	angular.module('frontpress.components.blog-information').factory('BlogInformationModel', BlogInformationModel);
-
-	function BlogInformationModel(BlogApi, $Frontpress){
-		var model = {
-			description: null,
-			isLoadingBlogInformation: false,
-			loadBlogInformation: loadBlogInformation,
-			name: null,
-			setDescription: setDescription,
-			setName: setName,
-		};
-
-
-		function setDescription(description){
-			model.description = description;
-		}
-
-		function setName(name){
-			model.name = name;
-		}
-
-		function loadBlogInformation(){
-			model.isLoadingBlogInformation = true;
-			var postPromise = BlogApi.getBlogInformation();
-
-			postPromise.success(function(result){
-				model.setName('asdasdasd');
-				model.setDescription(result.description);
-				model.isLoadingBlogInformation = false;
-			});
-		}
-
-		return model;
-	}
-
 })();
 angular.module("frontpress.componentes.frontpress-provider", [])
 .constant("restApiUrl", "https://public-api.wordpress.com/rest/v1.1/sites/en.blog.wordpress.com")
@@ -668,6 +676,46 @@ angular.module("frontpress.components.frontpress-provider")
 				defer.resolve();
 			});
 			return defer.promise;
+		}
+
+		return model;
+	}
+
+})();
+(function(){
+
+	"use strict";
+
+	angular.module('frontpress.components.blog-information').factory('BlogInformationModel', BlogInformationModel);
+
+	function BlogInformationModel(BlogApi, $Frontpress){
+		var model = {
+			description: null,
+			isLoadingBlogInformation: false,
+			loadBlogInformation: loadBlogInformation,
+			name: null,
+			setDescription: setDescription,
+			setName: setName,
+		};
+
+
+		function setDescription(description){
+			model.description = description;
+		}
+
+		function setName(name){
+			model.name = name;
+		}
+
+		function loadBlogInformation(){
+			model.isLoadingBlogInformation = true;
+			var postPromise = BlogApi.getBlogInformation();
+
+			postPromise.success(function(result){
+				model.setName('asdasdasd');
+				model.setDescription(result.description);
+				model.isLoadingBlogInformation = false;
+			});
 		}
 
 		return model;
@@ -1006,6 +1054,31 @@ angular.module("frontpress.components.frontpress-provider")
 	angular.module('frontpress.views.post').controller('PostRouteController', PostRouteController);
 
     function PostRouteController(){
+    	var vc = this;
+	}
+
+})();
+
+(function(){
+	'use strict';
+
+	angular.module('frontpress.views.sobre').controller('SobreDirectiveController', SobreDirectiveController);
+
+    function SobreDirectiveController($stateParams, PageHeadModel){
+    	var vc = this;
+        PageHeadModel.init();        
+        PageHeadModel.setPageTitle('Franklin Maciel - Sobre');                     
+        vc.disqusId = FullPostModel.slug;
+	}
+
+})();
+
+(function(){
+	'use strict';
+
+	angular.module('frontpress.views.sobre').controller('SobreRouteController', SobreRouteController);
+
+    function SobreRouteController(){
     	var vc = this;
 	}
 
